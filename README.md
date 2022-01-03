@@ -5,7 +5,7 @@ The purpose is to provide as basic and as useful as possible basic structure to 
 
 Of course, some parts may not suits you, but most of the basic redundant work is already done.
 
-## Scripts
+## Usage
 - `yarn dev`: runs webpack with development environment.
 - `yarn build`: runs webpack with production environment.
 - `yarn lint`: checks typescript files lint issues in the `src/` folder.
@@ -43,3 +43,13 @@ You will see a `dist/` folder generated containing the build files.
 - Jest
 - Scss support
 
+## Contributing
+ 
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## License
+The repo is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
