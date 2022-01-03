@@ -1,0 +1,10 @@
+{
+  "short_name": "Chrome extension boilerplate.",
+  "name": "Chrome extension React boilerplate",
+  "description": "Simple Chrome extension React boilerplate",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  }
+}

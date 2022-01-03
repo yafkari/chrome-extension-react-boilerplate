@@ -1,0 +1,27 @@
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:react/recommended
+  - plugin:jest/recommended
+parser: "@typescript-eslint/parser"
+plugins:
+  - "@typescript-eslint"
+  - jest
+rules:
+  no-shadow: off
+  "@typescript-eslint/no-shadow":
+    - error
+  no-use-before-define: off
+  "@typescript-eslint/no-use-before-define":
+    - error
+  react/jsx-filename-extension:
+    - warn
+    - extensions:
+        - .tsx
+env:
+  browser: true
+  jest/globals: true
+settings:
+  react:
+    pragma: React
+    version: detect

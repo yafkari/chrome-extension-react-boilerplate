@@ -1,0 +1,1 @@
+# Simple Chrome extension React boilerplate
