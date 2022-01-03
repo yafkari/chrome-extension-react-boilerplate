@@ -11,7 +11,7 @@ Of course, some parts may not suits you, but most of the basic redundant work is
 - `yarn lint`: checks typescript files lint issues in the `src/` folder.
 
 ## Installation
-> Note that you need at least **Yarn** or **NPM** installed to proceed.
+> Note that you need at least **yarn** or **npm** installed to proceed.
 
 Clone repo
 
