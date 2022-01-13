@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "ES2020",
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "dist",
+      "declaration": true,
+      "jsx": "react",
+      "charset": "utf-8",
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "types": ["jest", "node", "webpack-env"],
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "baseUrl": "./src",
+      "strictNullChecks": true,
+      "strictBindCallApply": true,
+      "strictFunctionTypes": true,
+      "noImplicitThis": true,
+      "noImplicitReturns": true,
+      "noImplicitUseStrict": true,
+      "resolveJsonModule": true
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "src/**/*.spec.ts",
+      "node_modules"
+    ]
+  }
